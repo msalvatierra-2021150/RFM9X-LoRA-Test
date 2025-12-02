@@ -46,7 +46,7 @@ extern "C" void app_main(void) {
   // loop forever
   for (;;) {
     ESP_LOGI(TAG, "[SX1276] Transmitting packet ...");
-    state = radio.transmit("Hello World!");
+    state = radio.transmit("Hello Roberto And Michael!");
     if (state == RADIOLIB_ERR_NONE) {
       ESP_LOGI(TAG, "TX success!");
     } else {
